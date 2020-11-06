@@ -1,5 +1,9 @@
 # Creating Columns Lab
-
+<style>
+.column{
+  
+}
+</style>
 ## Problem Statement
 
 Websites will often employ a 'column-based' layout scheme to visually
@@ -55,7 +59,7 @@ which they will align vertically.
 
 #### Help Getting Started
 
-- The **`.column`** class should have a _specific value_ for the `display` property.
+- The **`.column`** class should have a _specific 7value_ for the `display` property.
 - Create three `<div>`s, with a class of `.column`, inside of each `.container` element in `index.html`.
 - Make sure the column elements know to display the images _horizontally_, not _vertically_. By default the images display in a vertical line, even with three column `<divs>` in each container.
 
