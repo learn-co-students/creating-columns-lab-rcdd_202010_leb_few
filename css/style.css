@@ -1,4 +1,5 @@
 body, html {
+body, html {
   width: 100%;
   height: 100%;
   font-family: Apple Chancery, cursive;
@@ -49,3 +50,40 @@ img:hover {
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 
 /* create your tile classes! we recommend .small .med .large */
+.pic1{
+   grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 3;
+}
+
+.pic2{
+  grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 3;
+   grid-row-end: 6;
+}
+
+.pic3{
+  grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 6;
+   grid-row-end: 9;
+}
+
+
+
+
+.small{
+  display: grid;
+
+
+}
+
+.med{
+
+}
+
+.large{
+
+}
